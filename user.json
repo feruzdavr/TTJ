@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "name": "Aziz",
+      "login": "arakhmv",
+      "email": "athisez@gmail.com",
+      "password": "123123",
+      "id": 1
+    },
+    {
+      "name": "Azzi",
+      "login": "panfour",
+      "email": "athisez@gmail.com",
+      "password": "123123",
+      "id": 2
+    },
+    {
+      "name": "aziz",
+      "login": "panfour",
+      "email": "athisez@gmail.com",
+      "password": "123123",
+      "id": 3
+    },
+    {
+      "name": "Aziz",
+      "login": "arakhmv",
+      "email": "athisez@gmail.com",
+      "password": "123123",
+      "id": 4
+    },
+    {
+      "name": "Aziz",
+      "login": "ffff",
+      "email": "athisez@gmail.com",
+      "password": "123123",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athis - Регистрация</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+
+
+
+    <div class="container_title">
+        <h2>Online Registratsiya</h2>
+    </div>
+    <div class="container_a">
+
+
+        <form action="http://localhost:7777" method="post" name="reges" id="reges">
+            <input type="text" name="name" required placeholder="Ismingiz" minlength="4">
+            <input type="text" name="name" required placeholder="Familiyangiz" minlength="4">
+            <input type="text" name="name" required placeholder="Fakultet" minlength="4">
+            <input type="text" name="name" required placeholder="Qaysi kursdasiz" minlength="4">
+            <input type="text" class="login" name="login" required placeholder="Login" minlength="3">
+            <input type="email" name="email" required placeholder="elektron pochtangiz">
+            <div class="passwords">
+                <input type="password" name="password" required placeholder="Parol yarating" minlength="6">
+                <input type="password" name="password_confirm" required placeholder="Parolni tasdiqlash" minlength="6">
+            </div>
+            <button class="btn_reg" type="submit">Registratsiya</button>
+
+            <p class="text_gray">
+                Akkauntingiz bormi ? - <a href="index.html">Kiring</a>!
+            </p>
+        </form>
+
+    </div>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+</body>
+
+</html>
